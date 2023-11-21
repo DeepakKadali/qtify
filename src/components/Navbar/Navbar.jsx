@@ -10,7 +10,7 @@ const Navbar = () => {
       <a href="/">
         <Qtifylogo />
       </a>
-      <NavSearchbar placeholder="Search song of your choice" />
+      <NavSearchbar placeholder="Search a album of your choice"/>
       <FeedbackButton>Give Feedback</FeedbackButton>
     </nav>
   );
