@@ -1,0 +1,46 @@
+.anchor {
+  text-decoration: none;
+}
+
+.album-container {
+  width: 160px;
+  height: 232px;
+}
+.album-card {
+  height: 205px;
+  /* width: 159px; */
+  border-radius: 10px;
+  background-color: var(--color-white);
+}
+.album-title {
+  color: var(--color-white);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-overflow: ellipsis;
+  margin-top: 6px;
+  overflow: hidden;
+}
+.album-image {
+  height: 170px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+.album-merits {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 35px;
+}
+.follows-chip {
+  height: 21px;
+  margin-left: 6px;
+  background-color: black;
+  color: white;
+  font-size: 10px;
+  line-height: 15px;
+  font-weight: 400;
+  padding: 4px 8px;
+  border-radius: 10px;
+}
