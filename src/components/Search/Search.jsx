@@ -5,7 +5,6 @@ import {ReactComponent as SearchIcon} from "../../assets/search-icon.svg"
 function Search({placeholder}) {
     const onSubmit=(e)=>{
         e.preventDefault()
-        //process the form data here
     }
   return (
     <form className={styles.wrapper} onSubmit={onSubmit}>
