@@ -38,7 +38,7 @@ function Card({ data, type }) {
             <div className={styles.card}>
               <img src={image} alt="song" loading="lazy" />
               <div className={styles.banner}>
-                <div id={styles.pill}>
+                <div className={styles.pill}>
                   <p>{likes} Likes</p>
                 </div>
               </div>
