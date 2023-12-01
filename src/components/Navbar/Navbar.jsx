@@ -1,18 +1,20 @@
 import React from "react";
-import NavSearchbar from "../NavSearchbar/NavSearchbar";
-import Qtifylogo from "../Qtifylogo/Qtifylogo";
-import FeedbackButton from "../FeedbackButton/FeedbackButton";
-import "./Navbar.css"
+import styles from "./Navbar.module.css";
+import Button from "../Button/Button";
+import Logo from "../Logo/Logo";
+import Search from "../Search/Search";
+import { Link } from "react-router-dom";
 
-const Navbar = () => {
+function Navbar() {
   return (
-    <nav className="navbar">
-      <a href="/">
-        <Qtifylogo />
-      </a>
-      <NavSearchbar placeholder="Search a album of your choice"/>
-      <FeedbackButton>Give Feedback</FeedbackButton>
+    <nav className={styles.navbar}>
+      <Link to={"/"}>
+        <Logo />
+      </Link>
+      <Search placeholder="Search a song of your choice" />
+      <Button>Give Feedback</Button>
     </nav>
   );
-};
+}
+
 export default Navbar;
